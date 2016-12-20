@@ -1,0 +1,259 @@
+html {
+    background-color: #060709;
+    margin: 0px;
+
+}
+
+body {
+    margin: 0;
+}
+
+
+div .banner { 
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -20px;
+    background-color: black;
+    width: 100%;
+    
+}
+
+IMG.displayed {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 100px; 
+}
+
+
+.cycle-slideshow { position: absolute;
+    margin: 0px;
+    z-index: -1;
+    height: 700px;
+    overflow: hidden !important;
+   }
+
+ul.topnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    border-top: 3px solid #ff6a32;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -4px;
+}
+
+ul.topnav li {
+    float: left;
+    width: 25%;}
+
+ul.topnav li a {
+    display: block;
+    color: white;
+    font-family: avenir next;
+    font-weight: 100;
+    letter-spacing: 2px;
+    text-align: center;
+    padding: 14px 15px;
+    text-decoration: none;
+}
+
+ul.topnav li a:hover:not(.active) {background-color: #111;}
+
+
+ul.topnav li.right {float: right;}
+
+@media screen and (max-width: 600px){
+    ul.topnav li.right, 
+    ul.topnav li {float: none;}
+}
+
+ul.topnav li a.current {
+    background-color: #09713a;
+}
+
+
+
+
+.fullscreen-bg {display: static;
+    position: absolute;
+    overflow: hidden;
+    z-index: -100;
+}
+
+
+div.home { position: absolute;
+    z-index: 100;
+   
+}
+
+
+div.home { position: inherit;
+    background-color:rgba(240, 248, 255, 0.7);
+float: left;
+z-index: 100;
+margin-top: 50px;
+    margin-left: 65px;
+    padding: 15px;
+    padding-top: 10px;
+    border-radius: 5px;
+    width: 420px;
+    }
+div.home h1 {font-family: avenir;
+font-size: 40px;
+    color: #ff6a32;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-right: 5px;
+    
+    
+}
+
+
+div.home h2 {
+    font: 14px avenir next;
+    margin-top: -20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 15px;
+}
+
+div.home1 { position: absolute;
+    background-color:rgba(240, 248, 255, 0.7);
+float: left;
+z-index: 100;
+margin-top: 50px;
+    margin-left: 65px;
+    padding: 15px;
+    padding-top: 10px;
+    border-radius: 5px;
+    width: 420px;
+    }
+div.home1 h1 {font-family: avenir;
+font-size: 40px;
+    color: #ff6a32;
+    padding-left: 15px;
+    
+    
+    
+}
+
+div.home1 h2 {
+    font: 14px avenir next;
+    margin-top: -20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 15px;
+}
+/* Style the buttons that are used to open and close the accordion panel */
+button.accordion {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+    font: 16px avenir next;
+    font-stretch: expanded;
+}
+
+
+button.accordion.active, button.accordion:hover {
+    background-color: #09713a;
+    color: aliceblue;
+}
+
+/* Style the accordion panel. Note: hidden by default */
+div.panel {
+    padding: 0 18px;
+    background-color: aliceblue;
+    display: none;
+    font: 12px avenir next;
+    padding: 20px;
+     overflow: scroll;
+    max-height: 122px;
+}
+
+
+div.panel.show {
+    display: block;
+}
+
+button.accordion:after {
+    content: '\02795'; 
+    font-size: 13px;
+    color: #777;
+    float: right;
+    margin-left: 5px;
+}
+
+button.accordion.active:after {
+    content: "\2796"; 
+}
+
+/*
+iframe.calendar {position: absolute;
+        left: 605px;
+        top: 237px;}
+*/
+
+.calendar-container {
+    width: 500px;
+    position: relative;
+    padding-bottom: 10%;
+    height: auto;
+    overflow: hidden;
+    padding-right: 0px;
+
+    left: 132px;
+    top: 50px;
+
+}
+
+.clearfix {
+    clear: both; }
+
+
+
+/*
+form#63413225338148.jotform-form {position: static !important;
+    margin: -500px;
+    left: 900px;
+}
+*/
+
+
+
+a.fancybox {position: block;
+    border: 2px solid orange;
+/*
+    margin-left: 623px;
+            margin-top: 50%;
+            z-index: 500px; 
+*/
+               
+    
+}
+
+.currentgallery {
+padding-top: 10px;}
+
+/*
+img.fancybox {  position: static;
+    margin-top: 5000px; }
+*/
+/*
+.supernova .form-all {margin: 0px;
+            left: 300px;}
+.supernova .form-all {margin: 0px;}
+
+ .jotform-form{
+        position:absolute !important;
+     margin-top:-500px !important;
+}*/
